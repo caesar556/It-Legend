@@ -3,7 +3,7 @@ import { Timer, LibraryBig, Earth, Bug } from 'lucide-react';
 export default function CourseInfo({ course }) {
   return (
     <section className="mb-6 mt-14" >
-      <h2 className=" text-[25px] lg:text-[34px] font-bold">Course Matrials</h2>
+      <h2 className=" text-[25px] lg:text-[34px] mb-3 font-bold">Course Matrials</h2>
       <div className="bg-white flex justify-center md:justify-between p-5 rounded-lg shadow-lg">
         <div className="flex flex-col w-full md:w-[40%] gap-3  text-sm text-gray-600">
           <p className="flex justify-between items-center" >

@@ -3,10 +3,13 @@ import { FileChartColumn, LockKeyhole, Check } from 'lucide-react';
 
 export default function VideoList({ videos, currentVideo, setCurrentVideo, title, desc }) {
   return (
-    <div className="bg-gray-50 mt-16 py-8 px-3 rounded-md shadow-md  ">
+    <div className="bg-gray-50 mb-4 mt-16 py-8 px-2 lg:px-4 rounded-md shadow-md  ">
       <h3 className="text-[24px] mb-4 capitalize" >{title}</h3>
-      <p className="text-gray-500 mb-6 text-md" >{desc}</p>
-      <div className="border-b border-b-gray-300" />
+      <p className="text-gray-500 mb-6 text-md" >
+      {desc}
+      <div className="border-b border-b-gray-300 mt-2" />
+      </p>
+      
       <ul className="space-y-2 ">
         {videos.map((v) => (
           <>

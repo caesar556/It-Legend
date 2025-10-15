@@ -43,7 +43,7 @@ export default function CourseDetalis() {
         </div>
       </div>
 
-      <aside className="w-full lg:w-[37%] p-5">
+      <aside className="w-full p-2 lg:w-[37%]">
         <h3 className="text-lg font-semibold mb-4 text-gray-800">
           Topics for This Course
         </h3>

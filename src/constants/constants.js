@@ -7,7 +7,7 @@ export const courseData = {
   videos: [
     {
       id: 1,
-      title: "Dfferent world Alan walker",
+      title: "Different World Alan walker",
       url: "https://m.youtube.com/watch?v=m-PJmmvyP10"
     },
     {

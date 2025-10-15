@@ -33,17 +33,17 @@ export default function CourseDetalis() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row md:justify-between mt-4 px-10 gap-8">
+    <div className="flex flex-col lg:flex-row md:justify-between mt-4 px-10 gap-8">
       <div className="flex-1 ">
         <CoursePlayer video={currentVideo} onWatched={handleWatched} />
         <CourseInfo course={courseData} />
         <div className="mt-16">
-          <h2 className="text-[34px]  font-bold">Comments</h2>
+          <h2 className=" text-[24px] lg:text-[34px]   font-bold">Comments</h2>
           <CommentSection />
         </div>
       </div>
 
-      <aside className="w-full md:w-[37%] p-5">
+      <aside className="w-full lg:w-[37%] p-5">
         <h3 className="text-lg font-semibold mb-4 text-gray-800">
           Topics for This Course
         </h3>
@@ -53,7 +53,7 @@ export default function CourseDetalis() {
           currentVideo={currentVideo}
           setCurrentVideo={setCurrentVideo}
           title="Week 1-4"
-          desc="Welcome to your new course content"
+          desc="Advanced story telling techniques for writers personas Characters & Plots."
         />
       </aside>
     </div>

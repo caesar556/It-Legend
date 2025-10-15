@@ -22,7 +22,7 @@ export default function CoursePlayer({ video, onWatched }) {
 
   return (
     <section>
-      <h2 className="mb-3 text-[36px] font-bold">{video.title}</h2>
+      <h2 className="mb-3 text-[23px] md:text-[36px] font-bold">{video.title}</h2>
       <div className="flex flex-col items-center">
         <ReactPlayer
           url={video.url}
